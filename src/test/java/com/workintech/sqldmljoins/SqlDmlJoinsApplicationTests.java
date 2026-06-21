@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(ResultAnalyzer.class)	
 class SqlDmlJoinsApplicationTests {
 
-	private KitapRepository kitapRepository;
+	private final KitapRepository kitapRepository;
 	private OgrenciRepository ogrenciRepository;
 
 	@Autowired
